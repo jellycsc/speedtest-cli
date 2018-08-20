@@ -1,41 +1,10 @@
 speedtest-cli
 =============
 
-Command line interface for testing internet bandwidth using speedtest.net
+CLI for testing VPS bandwidth and latency using speedtest.net.
 
 Installation
 ------------
-
-pip / easy\_install
-~~~~~~~~~~~~~~~~~~~
-
-::
-
-    pip install speedtest-cli
-
-or
-
-::
-
-    easy_install speedtest-cli
-
-Github
-~~~~~~
-
-::
-
-    pip install git+https://github.com/sivel/speedtest-cli.git
-
-or
-
-::
-
-    git clone https://github.com/sivel/speedtest-cli.git
-    python speedtest-cli/setup.py install
-
-Just download (Like the way it used to be)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 ::
 
     wget -O speedtest-cli https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py
